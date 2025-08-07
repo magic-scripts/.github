@@ -18,7 +18,7 @@ Magic Scripts is a command-line ecosystem that lets anyone easily:
 ## 🚀 Get Started in 30 Seconds
 
 ```bash
-# Install Magic Scripts
+# Install latest stable version
 curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
 
 # Install useful tools
@@ -32,6 +32,22 @@ licgen mit
 
 # Initialize a new React project
 projinit react my-app
+```
+
+## 📦 Installation Options
+
+```bash
+# Latest stable version (recommended)
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
+
+# Specific version
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh -s -- -v 0.0.1
+
+# Development version (latest features)
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh -s -- -v dev -d
+
+# Using wget instead of curl
+wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
 ```
 
 ## 🎯 Why Magic Scripts?
