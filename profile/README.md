@@ -1,0 +1,50 @@
+# Magic Scripts
+
+**Developer automation made simple.**
+
+Transform your repetitive development tasks into reusable command-line tools. Magic Scripts provides a unified system for managing, sharing, and running automation scripts across your projects.
+
+## ✨ What is Magic Scripts?
+
+Magic Scripts is a command-line ecosystem that lets anyone easily:
+
+- **Create** automation scripts for common development tasks
+- **Share** scripts through simple registry files 
+- **Install** and manage scripts from multiple sources
+- **Configure** scripts through a unified config system
+
+## 🚀 Get Started in 30 Seconds
+
+```bash
+# Install Magic Scripts
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
+
+# Install useful tools
+ms install gigen licgen projinit
+
+# Generate a .gitignore for your Node.js project
+gigen add node
+
+# Create an MIT license
+licgen mit
+
+# Initialize a new React project
+projinit react my-app
+```
+
+## 🎯 Why Magic Scripts?
+
+- **No more copy-pasting scripts** between projects
+- **One command** to install and manage all your automation tools
+- **Sharable registries** - distribute your team's scripts easily
+- **Unified configuration** - set your name, email, etc. once
+- **Version management** - keep your scripts up to date
+
+## 📚 Learn More
+
+- **[Main Repository](https://github.com/magic-scripts/ms)** - Complete guide and reference
+- **[Template Repository](https://github.com/magic-scripts/ms-template)** - Create your own scripts
+
+---
+
+*Join thousands of developers streamlining their workflows with Magic Scripts.*
