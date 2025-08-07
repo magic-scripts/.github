@@ -58,6 +58,13 @@ wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer
 - **Unified configuration** - set your name, email, etc. once
 - **Version management** - keep your scripts up to date
 
+## 🗑️ Uninstallation
+
+```bash
+# Completely remove Magic Scripts
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/uninstall.sh | sh
+```
+
 ## 📚 Learn More
 
 - **[Main Repository](https://github.com/magic-scripts/ms)** - Complete guide and reference
