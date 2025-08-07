@@ -4,6 +4,8 @@
 
 Transform your repetitive development tasks into reusable command-line tools. Magic Scripts provides a unified system for managing, sharing, and running automation scripts across your projects.
 
+*Built with the Unix philosophy: simple tools that do one thing well.*
+
 ## ✨ What is Magic Scripts?
 
 Magic Scripts is a command-line ecosystem that lets anyone easily:
