@@ -19,7 +19,7 @@ Magic Scripts is a command-line ecosystem that lets anyone easily:
 
 ```bash
 # Install latest stable version
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/installer/install.sh | sh
 
 # Install useful tools
 ms install gigen licgen projinit
@@ -38,16 +38,16 @@ projinit react my-app
 
 ```bash
 # Latest stable version (recommended)
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/installer/install.sh | sh
 
 # Specific version
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh -s -- -v 0.0.1
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/installer/install.sh | sh -s -- -v 0.0.1
 
 # Development version (latest features)
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh -s -- -v dev -d
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/installer/install.sh | sh -s -- -v dev -d
 
 # Using wget instead of curl
-wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/install.sh | sh
+wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/installer/install.sh | sh
 ```
 
 ## 🎯 Why Magic Scripts?
@@ -62,7 +62,7 @@ wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer
 
 ```bash
 # Completely remove Magic Scripts
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/core/installer/uninstall.sh | sh
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/installer/uninstall.sh | sh
 ```
 
 ## 📚 Learn More
