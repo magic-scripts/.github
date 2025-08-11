@@ -44,7 +44,7 @@ curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh
 curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh -s -- -v 0.0.1
 
 # Development version (latest features)
-curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh -s -- -v dev -d
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh -s -- -v dev
 
 # Using wget instead of curl
 wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh
@@ -61,8 +61,17 @@ wget -qO- https://raw.githubusercontent.com/magic-scripts/ms/main/setup.sh | sh
 ## 🗑️ Uninstallation
 
 ```bash
-# Completely remove Magic Scripts
+# Normal uninstallation (recommended)
 ms uninstall ms
+```
+
+### Emergency Cleanup
+
+If Magic Scripts is corrupted or not working properly:
+
+```bash
+# Complete system cleanup (when ms command fails)
+curl -fsSL https://raw.githubusercontent.com/magic-scripts/ms/main/cleanup.sh | sh
 ```
 
 ## 📚 Learn More
